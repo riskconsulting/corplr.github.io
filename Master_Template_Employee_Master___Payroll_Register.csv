@@ -1,0 +1,3 @@
+"Employee ID (employeeId)","Employee Name (employeeName)","Department (department)","Salary Bank Account (bankAccount)","Bank IFSC (ifscCode)","Gross Salary (grossPay)","Provident Fund (PF) (pfDeduction)","Net Disbursed (netSalary)"
+"[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - OPTIONAL]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[CURRENCY - MANDATORY]","[CURRENCY - OPTIONAL]","[CURRENCY - MANDATORY]"
+"EMP-041","Rajesh Shinde","Machine Shop Line 1","9876543210121","SBIN0005678","35,000.00","1,800.00","32,800.00"

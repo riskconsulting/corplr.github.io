@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENTINEL — AI-Powered Financial Intelligence Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+      if (localStorage.getItem('grc_theme') === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- ======================================================================= -->
+    <!-- 1. MARKETING HOME PAGE / CEO STRATEGIC VALUE SHOWCASE                   -->
+    <!-- ======================================================================= -->
+    <div id="marketing-page" class="snt-page">
+        
+        <header class="snt-nav">
+            <div class="snt-nav-inner">
+                <a href="#landing" class="snt-brand">
+                    <div class="snt-brand-mark">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L3 7l0 6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12l0-6-9-5z"/>
+                        </svg>
+                    </div>
+                    <span class="snt-brand-name">SENTINEL</span>
+                </a>
+
+                <nav class="snt-nav-menu">
+                    <a href="#platform" class="snt-nav-link">Platform</a>
+                    <a href="#ceo-value" class="snt-nav-link">Intelligence</a>
+                    <a href="#forensic-engine" class="snt-nav-link">Live Engine</a>
+                    <a href="#industries" class="snt-nav-link">Solutions</a>
+                    <a href="#stakeholders" class="snt-nav-link">Leadership</a>
+                </nav>
+
+                <div class="snt-nav-end">
+                    <button class="btn-theme-toggle-nav" onclick="togglePlatformTheme()" title="Toggle Dark/Light Mode">
+                        <i data-lucide="moon"></i>
+                    </button>
+                    <a href="#demo-gateway" class="snt-btn-primary-ghost" style="text-decoration:none;">Request Access &darr;</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="snt-hero" id="landing">
+            <div class="snt-hero-grid"></div>
+            <div class="snt-hero-glow"></div>
+            <div class="snt-hero-content">
+                <div class="snt-hero-chip">
+                    <span class="snt-pulse"></span>
+                    AUTONOMOUS ENTERPRISE AI &amp; Risk Analytics OS
+                </div>
+                <h1 class="snt-hero-title">
+                    See Everything.<br>
+                    <span class="snt-gradient-text">Protect Everything.</span>
+                </h1>
+                <p class="snt-hero-sub">
+                    Sentinel deploys 85 neural detection models across your entire financial ledger — intercepting margin leakage, regulatory exposure, and working capital friction before they impact your bottom line.
+                </p>
+                <div class="snt-hero-cta">
+                    <a href="#platform" class="snt-btn-primary-ghost" style="text-decoration:none;">Explore the Platform &darr;</a>
+                    <a href="#forensic-engine" class="snt-btn-secondary-ghost" style="text-decoration:none;">See Live AI Engine &darr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="snt-trust">
+            <div class="snt-trust-inner">
+                <div class="snt-trust-item">
+                    <div class="snt-trust-val">85 AI Algorithms</div>
+                    <div class="snt-trust-lbl">Deterministic &amp; Neural Detection Models</div>
+                </div>
+                <div class="snt-trust-divider"></div>
+                <div class="snt-trust-item">
+                    <div class="snt-trust-val">90</div>
+                    <div class="snt-trust-lbl">Autonomous Controls</div>
+                </div>
+                <div class="snt-trust-divider"></div>
+                <div class="snt-trust-item">
+                    <div class="snt-trust-val">100%</div>
+                    <div class="snt-trust-lbl">Full-Ledger Coverage</div>
+                </div>
+                <div class="snt-trust-divider"></div>
+                <div class="snt-trust-item">
+                    <div class="snt-trust-val">6</div>
+                    <div class="snt-trust-lbl">Industry AI Models</div>
+                </div>
+                <div class="snt-trust-divider"></div>
+                <div class="snt-trust-item">
+                    <div class="snt-trust-val">2% to 5%</div>
+                    <div class="snt-trust-lbl">EBITDA Margin Protected</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="platform" class="snt-section">
+            <div class="section-container">
+                <div class="snt-section-chip">THE PLATFORM</div>
+                <h2 class="snt-section-title">Three Autonomous AI Engines. One Unified Intelligence Layer.</h2>
+                <p class="snt-section-desc">Sentinel combines real-time data ingestion, 85 forensic AI models, and automated governance output into a single continuous intelligence pipeline.</p>
+                
+                <div class="snt-pillars-grid">
+                    <div class="snt-pillar">
+                        <div class="snt-pillar-icon"><i data-lucide="database"></i></div>
+                        <h3 class="snt-pillar-name">SENTINEL NEXUS</h3>
+                        <div class="snt-pillar-badge">Universal Data Fabric</div>
+                        <p class="snt-pillar-desc">Zero-friction ingestion engine. Canonical schemas connect directly to SAP, Oracle, Tally, Zoho, biometric clocks, and custom databases. 19 pre-built extraction templates with automated data hygiene validation.</p>
+                        <div class="snt-pillar-chips">
+                            <span class="snt-pillar-chip">19 Extract Templates</span>
+                            <span class="snt-pillar-chip">Universal ERP</span>
+                            <span class="snt-pillar-chip">5-Min Setup</span>
+                        </div>
+                    </div>
+                    
+                    <div class="snt-pillar snt-pillar-featured">
+                        <div class="snt-pillar-icon"><i data-lucide="cpu"></i></div>
+                        <h3 class="snt-pillar-name">SENTINEL CORTEX</h3>
+                        <div class="snt-pillar-badge">AI Detection Core</div>
+                        <p class="snt-pillar-desc">85 neural detection models continuously cross-examine commercial POs, physical delivery logs, inventory movements, tax returns, and bank statements. Full-population Benford's Law analysis and cross-ledger anomaly isolation in milliseconds.</p>
+                        <div class="snt-pillar-chips">
+                            <span class="snt-pillar-chip">85 AI Models</span>
+                            <span class="snt-pillar-chip">Benford's Law</span>
+                            <span class="snt-pillar-chip">Zero Sampling</span>
+                        </div>
+                    </div>
+
+                    <div class="snt-pillar">
+                        <div class="snt-pillar-icon"><i data-lucide="shield-check"></i></div>
+                        <h3 class="snt-pillar-name">SENTINEL SHIELD</h3>
+                        <div class="snt-pillar-badge">Governance & Clawback</div>
+                        <p class="snt-pillar-desc">Converts detected anomalies into immediate bottom-line recovery. 1-Click legally enforceable debit notes, immutable audit trails, CARO 2020 compliance matrix, and institutional-grade data room governance.</p>
+                        <div class="snt-pillar-chips">
+                            <span class="snt-pillar-chip">Auto Debit Notes</span>
+                            <span class="snt-pillar-chip">CARO 2020</span>
+                            <span class="snt-pillar-chip">Board Armor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ceo-value" class="snt-section snt-dark-section">
+            <div class="section-container">
+                <div class="snt-section-chip">EXECUTIVE INTELLIGENCE</div>
+                <h2 class="snt-section-title">Five Financial Signals Your Current Systems Miss</h2>
+                <p class="snt-section-desc">As companies scale from ₹50 Crores to ₹500 Crores, transactional complexity outpaces human oversight. Here is where enterprise value silently erodes.</p>
+                
+                <div class="snt-signal-grid">
+                    <div class="snt-signal-card">
+                        <div class="snt-signal-top">
+                            <span class="snt-signal-num">01</span>
+                            <span class="snt-signal-cat">MARGIN DEFENSE</span>
+                        </div>
+                        <h3 class="snt-signal-title">EBITDA Margin Bleed</h3>
+                        <p class="snt-signal-text">A 1% procurement leak wipes out 10-15% of net profit. Sentinel intercepts duplicate charges, unearned discounts, and billing discrepancies autonomously.</p>
+                        <div class="snt-signal-impact">₹50L leak = ₹5Cr topline equivalent</div>
+                    </div>
+                    
+                    <div class="snt-signal-card">
+                        <div class="snt-signal-top">
+                            <span class="snt-signal-num">02</span>
+                            <span class="snt-signal-cat">WORKING CAPITAL</span>
+                        </div>
+                        <h3 class="snt-signal-title">Working Capital Friction</h3>
+                        <p class="snt-signal-text">Capital frozen in disputed payables, uncredited returns, and delayed warranty claims. Sentinel reconciles disputes and issues enforceable debit notes autonomously.</p>
+                        <div class="snt-signal-impact">14-28 day turnaround reduction</div>
+                    </div>
+                    
+                    <div class="snt-signal-card">
+                        <div class="snt-signal-top">
+                            <span class="snt-signal-num">03</span>
+                            <span class="snt-signal-cat">TRUTH LAYER</span>
+                        </div>
+                        <h3 class="snt-signal-title">Cross-Departmental Silos</h3>
+                        <p class="snt-signal-text">Commercial, operations, warehouse, and finance systems operating in isolation let discrepancies pass unnoticed. Sentinel creates a single continuous AI source of truth.</p>
+                        <div class="snt-signal-impact">100% multi-ledger triangulation</div>
+                    </div>
+                    
+                    <div class="snt-signal-card">
+                        <div class="snt-signal-top">
+                            <span class="snt-signal-num">04</span>
+                            <span class="snt-signal-cat">REGULATORY</span>
+                        </div>
+                        <h3 class="snt-signal-title">Statutory & Regulatory Exposure</h3>
+                        <p class="snt-signal-text">GST ITC clawbacks, MSME payment defaults under 43B(h), MCA audit trail mandates. Sentinel automates regulatory immunity as you scale.</p>
+                        <div class="snt-signal-impact">Zero statutory surprises</div>
+                    </div>
+                    
+                    <div class="snt-signal-card">
+                        <div class="snt-signal-top">
+                            <span class="snt-signal-num">05</span>
+                            <span class="snt-signal-cat">VALUATION</span>
+                        </div>
+                        <h3 class="snt-signal-title">Enterprise Valuation Multiplier</h3>
+                        <p class="snt-signal-text">Institutional capital rewards verifiable controls. Sentinel transforms governance into a strategic valuation asset for PE/VC fundraising, M&A, and IPO readiness.</p>
+                        <div class="snt-signal-impact">Premium EBITDA multiples</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="forensic-engine" class="snt-section">
+    <div class="snt-section-chip">LIVE PLATFORM INTELLIGENCE</div>
+    <h2 class="snt-section-title">Interactive AI Engine — Live Deployment Snapshots</h2>
+    <p class="snt-section-desc">Explore interactive snapshots from Sentinel's live enterprise deployments. Client entity details anonymized for confidentiality.</p>
+    <div class="snt-carousel-wrap">
+        <div class="forensic-carousel-container">
+                    <!-- Carousel Top Tab Bar -->
+                    <div class="carousel-tab-bar">
+                        <button class="carousel-tab-btn active" onclick="setCarouselSlide(0)">
+                            <i data-lucide="git-merge"></i>
+                            <span>1. Cross-Ledger Triangulation</span>
+                        </button>
+                        <button class="carousel-tab-btn" onclick="setCarouselSlide(1)">
+                            <i data-lucide="radar"></i>
+                            <span>2. Executive AI Value-at-Risk</span>
+                        </button>
+                        <button class="carousel-tab-btn" onclick="setCarouselSlide(2)">
+                            <i data-lucide="check-square"></i>
+                            <span>3. 90 Risk Indicators &amp; Analytics</span>
+                        </button>
+                        <button class="carousel-tab-btn" onclick="setCarouselSlide(3)">
+                            <i data-lucide="scale"></i>
+                            <span>4. Regulatory Iron Dome</span>
+                        </button>
+                    </div>
+
+                    <!-- Masked Client Banner -->
+                    <div class="masked-client-banner">
+                        <div class="masked-client-left">
+                            <i data-lucide="eye-off" style="width:14px;height:14px;color:#38bdf8;"></i>
+                            <span>DEPLOYMENT INTELLIGENCE: <strong class="masked-client-tag">[CONFIDENTIAL CLIENT // PRECISION MOBILITY &amp; ASSEMBLY OEM]</strong> • CIN: U34100MH2019PTC******</span>
+                        </div>
+                        <div class="masked-client-pill">CLIENT DATA ANONYMIZED</div>
+                    </div>
+
+                    <!-- Carousel Viewport -->
+                    <div class="carousel-viewport">
+                        
+                        <!-- SLIDE 1: Interactive 4-Way Cross-Ledger Triangulation -->
+                        <div class="carousel-slide active" id="slide-0">
+                            <div style="margin-bottom:16px;">
+                                <h3 style="font-size:16px;font-weight:800;color:var(--text-main);margin-bottom:4px;">Autonomous 4-Way Cross-Ledger Matching Stream</h3>
+                                <p style="font-size:12.5px;color:var(--text-muted);">AI engine cross-examines commercial POs, physical weighbridge logs, store QC records, and vendor tax invoices in real time.</p>
+                            </div>
+
+                            <div class="sim-streams-grid">
+                                <!-- Feed 1 -->
+                                <div class="sim-stream-col">
+                                    <div class="stream-badge"><i data-lucide="file-text"></i> FEED 1: COMMERCIAL CONTRACT / PO</div>
+                                    <div class="stream-body">
+                                        <div class="stream-field"><span class="sf-label">Contract Ref:</span> <span class="sf-val">PO-2024-884</span></div>
+                                        <div class="stream-field"><span class="sf-label">Vendor ID:</span> <span class="sf-val">[VENDOR-ALPHA-09]</span></div>
+                                        <div class="stream-field"><span class="sf-label">Ordered Qty:</span> <span class="sf-val">420 High-Precision Units</span></div>
+                                        <div class="stream-field"><span class="sf-label">Contract Rate:</span> <span class="sf-val">₹1,143 / unit</span></div>
+                                        <div class="stream-field highlight"><span class="sf-label">PO Value:</span> <span class="sf-val">₹480,000</span></div>
+                                    </div>
+                                </div>
+
+                                <!-- Feed 2 -->
+                                <div class="sim-stream-col">
+                                    <div class="stream-badge"><i data-lucide="truck"></i> FEED 2: GATE WEIGHBRIDGE LOG</div>
+                                    <div class="stream-body">
+                                        <div class="stream-field"><span class="sf-label">Gate Pass:</span> <span class="sf-val">GT-1049</span></div>
+                                        <div class="stream-field"><span class="sf-label">Carrier Weight:</span> <span class="sf-val">420 kg Inward</span></div>
+                                        <div class="stream-field"><span class="sf-label">Tare Weight:</span> <span class="sf-val">13 kg Validated</span></div>
+                                        <div class="stream-field"><span class="sf-label">Timestamp:</span> <span class="sf-val">14-Aug 10:14 AM</span></div>
+                                        <div class="stream-field highlight"><span class="sf-label">Gate Status:</span> <span class="sf-val">Physical Inward OK</span></div>
+                                    </div>
+                                </div>
+
+                                <!-- Feed 3 -->
+                                <div class="sim-stream-col">
+                                    <div class="stream-badge"><i data-lucide="package-check"></i> FEED 3: STORE QC &amp; GRN ACCEPTANCE</div>
+                                    <div class="stream-body">
+                                        <div class="stream-field"><span class="sf-label">GRN Ref:</span> <span class="sf-val">GRN-992</span></div>
+                                        <div class="stream-field"><span class="sf-label">Accepted Qty:</span> <span class="sf-val text-emerald">380 Units (Approved)</span></div>
+                                        <div class="stream-field highlight-alert"><span class="sf-label">QC Rejected:</span> <span class="sf-val text-crimson">40 Units (Fail)</span></div>
+                                        <div class="stream-field"><span class="sf-label">Reason:</span> <span class="sf-val">Voltage Drop &gt; 12mV</span></div>
+                                        <div class="stream-field"><span class="sf-label">RTV Status:</span> <span class="sf-val">Pending Supplier Credit</span></div>
+                                    </div>
+                                </div>
+
+                                <!-- Feed 4 -->
+                                <div class="sim-stream-col">
+                                    <div class="stream-badge"><i data-lucide="receipt"></i> FEED 4: VENDOR INVOICE &amp; TAX CLEARING</div>
+                                    <div class="stream-body">
+                                        <div class="stream-field"><span class="sf-label">Invoice Ref:</span> <span class="sf-val">INV-24-091</span></div>
+                                        <div class="stream-field"><span class="sf-label">Billed Qty:</span> <span class="sf-val">420 Units (Full Billed)</span></div>
+                                        <div class="stream-field"><span class="sf-label">Invoice Total:</span> <span class="sf-val">₹480,000</span></div>
+                                        <div class="stream-field"><span class="sf-label">Tax Status:</span> <span class="sf-val text-amber">GSTR-2B Reflected</span></div>
+                                        <div class="stream-field highlight-alert"><span class="sf-label">Credit Note:</span> <span class="sf-val text-crimson">NONE RECORDED</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Action & Result Box -->
+                            <div style="padding-top:20px;text-align:center;">
+                                <div id="sim-action-container">
+                                    <button id="btnRunSim" class="btn-sim-run" onclick="runLiveSimulation()">
+                                        <i data-lucide="zap" style="width:16px;height:16px;margin-right:8px;"></i>
+                                        <span>Execute Autonomous AI Triangulation</span>
+                                    </button>
+                                    <p class="sim-hint">Click above to watch the algorithmic AI triangulation engine match commercial, physical, and financial ledgers.</p>
+                                </div>
+
+                                <div id="sim-result-container" class="sim-result-box" style="display:none;">
+                                    <div class="sim-result-header">
+                                        <div class="sim-result-badge-crimson">
+                                            <i data-lucide="alert-triangle" style="width:16px;height:16px;margin-right:6px;"></i>
+                                            <span>AI ANOMALY DETECTED: UNCREDITED SUPPLIER OVERCHARGE</span>
+                                        </div>
+                                        <div class="sim-leakage-amount">Identified Capital Leakage: <strong>₹46,000</strong></div>
+                                    </div>
+                                    <div class="sim-result-details">
+                                        <p><strong>Forensic Finding:</strong> Vendor invoiced for 100% of PO quantity (420 units @ ₹480,000), but Factory Quality Inspection (GRN-992) rejected 40 units for specification failure. Because operations and finance were disconnected, AP ledger was queued to pay the full invoice without credit note deduction. Total unearned supplier cash overpayment: <strong>₹46,000</strong>.</p>
+                                    </div>
+                                    <div class="sim-result-actions">
+                                        <button id="btnGenDebitNote" class="btn-sim-debit-note" onclick="generateSimDebitNote()">
+                                            <i data-lucide="file-plus" style="width:15px;height:15px;margin-right:6px;"></i>
+                                            <span>1-Click AI Clawback: Issue ₹46,000 Debit Note</span>
+                                        </button>
+                                        <span id="sim-clawback-status" class="sim-clawback-status"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 2: Executive AI Value-at-Risk Radar Snapshot -->
+                        <div class="carousel-slide" id="slide-1">
+                            <div style="margin-bottom:16px;">
+                                <h3 style="font-size:16px;font-weight:800;color:var(--text-main);margin-bottom:4px;">Executive AI Value-at-Risk (VaR) Radar &amp; EBITDA Defense</h3>
+                                <p style="font-size:12.5px;color:var(--text-muted);">Real-time financial exposure tally across 10 risk domains for <strong style="color:var(--text-main);">[ENTERPRISE CLIENT-A]</strong>.</p>
+                            </div>
+
+                            <div class="radar-kpi-strip">
+                                <div class="radar-kpi-box">
+                                    <div class="radar-kpi-val text-amber">₹2 Crores</div>
+                                    <div class="radar-kpi-lbl">Total Value-at-Risk Intercepted</div>
+                                </div>
+                                <div class="radar-kpi-box">
+                                    <div class="radar-kpi-val text-emerald">₹42 Lakhs</div>
+                                    <div class="radar-kpi-lbl">Direct Cash Recoverable</div>
+                                </div>
+                                <div class="radar-kpi-box">
+                                    <div class="radar-kpi-val text-purple">₹21 Lakhs</div>
+                                    <div class="radar-kpi-lbl">Tax &amp; Regulatory Penal Shield</div>
+                                </div>
+                                <div class="radar-kpi-box">
+                                    <div class="radar-kpi-val text-cobalt">21%</div>
+                                    <div class="radar-kpi-lbl">Net Profit Margin Protected</div>
+                                </div>
+                            </div>
+
+                            <div class="radar-snapshot-grid">
+                                <div class="radar-card-inner">
+                                    <div class="radar-card-title">
+                                        <i data-lucide="pie-chart" style="width:16px;height:16px;color:var(--primary);"></i>
+                                        <span>Statistical Anomaly Distribution (Benford's Law Chi-Square: 139)</span>
+                                    </div>
+                                    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;padding:14px;font-family:monospace;font-size:11.5px;line-height:1.7;">
+                                        <div>• Digit 1: Actual 38% vs Expected 30% [ANOMALOUS CLUSTER]</div>
+                                        <div>• Digit 2: Actual 17% vs Expected 18% [NORMAL]</div>
+                                        <div>• Digit 7: Actual 14% vs Expected 6%  [HIGH-RISK SPLIT PO SPIKE]</div>
+                                        <div style="color:#f43f5e;font-weight:700;margin-top:6px;">⚠️ AI Finding: 18 split Purchase Orders clustered just below ₹5 Lakhs MD approval limit.</div>
+                                    </div>
+                                </div>
+
+                                <div class="radar-card-inner">
+                                    <div class="radar-card-title">
+                                        <i data-lucide="bar-chart-3" style="width:16px;height:16px;color:#10b981;"></i>
+                                        <span>Departmental Capital Leakage Distribution</span>
+                                    </div>
+                                    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;padding:14px;font-size:12px;display:flex;flex-direction:column;gap:8px;">
+                                        <div><strong>Procurement &amp; Payables:</strong> 48% (₹20 Lakhs uncredited QC debit notes)</div>
+                                        <div><strong>Statutory &amp; Tax:</strong> 25% (₹11 Lakhs GSTR-2B ITC mismatches)</div>
+                                        <div><strong>Inventory &amp; Job-Work:</strong> 18% (₹7 Lakhs unreturned Form ITC-04 scrap)</div>
+                                        <div><strong>Payroll &amp; Biometrics:</strong> 9% (₹4 Lakhs shift allowance discrepancies)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 3: Master RACM (90 Controls) & 85 CAAT Routines Snapshot -->
+                        <div class="carousel-slide" id="slide-2">
+                            <div style="margin-bottom:16px;">
+                                <h3 style="font-size:16px;font-weight:800;color:var(--text-main);margin-bottom:4px;">Master Risk Indicators (90) &amp; 85 Automated Analytics</h3>
+                                <p style="font-size:12.5px;color:var(--text-muted);">100% full population continuous testing across 13 enterprise process areas for <strong style="color:var(--text-main);">[GLOBAL INDUSTRIAL SUPPLIER]</strong>.</p>
+                            </div>
+
+                            <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:8px;overflow-x:auto;">
+                                <table class="snapshot-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Control ID</th>
+                                            <th>Process Domain</th>
+                                            <th>Risk Rating</th>
+                                            <th>Population Scanned</th>
+                                            <th>Sample Size</th>
+                                            <th>Linked Analytics Routine</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>PUR-C01</strong></td>
+                                            <td>Purchase &amp; Payables</td>
+                                            <td><span style="color:#f43f5e;font-weight:700;">HIGH</span></td>
+                                            <td>2,005 Vouchers</td>
+                                            <td>100% (Full Population)</td>
+                                            <td>DA-01 (Duplicate Vendor Invoices)</td>
+                                            <td><span class="pill-fail">5 EXCEPTIONS</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>INV-C06</strong></td>
+                                            <td>Inventory Management</td>
+                                            <td><span style="color:#f43f5e;font-weight:700;">HIGH</span></td>
+                                            <td>340 Challans</td>
+                                            <td>100% (Full Population)</td>
+                                            <td>DA-74 (Job-Work 180-Day Aging ITC-04)</td>
+                                            <td><span class="pill-fail">1 EXCEPTION</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>PRD-C03</strong></td>
+                                            <td>Production &amp; Scrap</td>
+                                            <td><span style="color:#f59e0b;font-weight:700;">MEDIUM</span></td>
+                                            <td>340 Movements</td>
+                                            <td>100% (Full Population)</td>
+                                            <td>DA-77 (Weighbridge Tare Manipulation)</td>
+                                            <td><span class="pill-fail">1 EXCEPTION</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>REV-C01</strong></td>
+                                            <td>Revenue &amp; Receivables</td>
+                                            <td><span style="color:#10b981;font-weight:700;">LOW</span></td>
+                                            <td>420 Invoices</td>
+                                            <td>100% (Full Population)</td>
+                                            <td>DA-17 (Sequential Sales Numbering)</td>
+                                            <td><span class="pill-pass">PASS</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>PAY-C06</strong></td>
+                                            <td>Payroll &amp; HR</td>
+                                            <td><span style="color:#10b981;font-weight:700;">LOW</span></td>
+                                            <td>240 Employees</td>
+                                            <td>100% (Full Population)</td>
+                                            <td>DA-78 (Biometric Punch vs Muster)</td>
+                                            <td><span class="pill-pass">PASS</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div style="font-size:11.5px;color:var(--text-muted);margin-top:10px;text-align:right;">
+                                Scanned: 4,850+ records across 90 risk indicators • 85 automated analytics routines • 0% statistical sampling error.
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 4: Regulatory Iron Dome (CARO 2020 & Tax Shield) -->
+                        <div class="carousel-slide" id="slide-3">
+                            <div style="margin-bottom:16px;">
+                                <h3 style="font-size:16px;font-weight:800;color:var(--text-main);margin-bottom:4px;">Automated Regulatory &amp; Tax Iron Dome (CARO 2020 &amp; Tax Shield)</h3>
+                                <p style="font-size:12.5px;color:var(--text-muted);">Real-time statutory immunity against tax clawbacks and board disclosures for <strong style="color:var(--text-main);">[MULTI-PLANT INDUSTRIAL ENTERPRISE]</strong>.</p>
+                            </div>
+
+                            <div class="radar-snapshot-grid">
+                                <div class="radar-card-inner">
+                                    <div class="radar-card-title">
+                                        <i data-lucide="scale" style="width:16px;height:16px;color:#f59e0b;"></i>
+                                        <span>CARO 2020 21-Clause Schedule (Continuous Evaluation)</span>
+                                    </div>
+                                    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;padding:12px;font-size:11.5px;display:flex;flex-direction:column;gap:6px;">
+                                        <div style="display:flex;justify-content:space-between;"><span>Clause i (Fixed Assets &amp; CWIP Verification):</span> <span class="pill-pass">CLEAN</span></div>
+                                        <div style="display:flex;justify-content:space-between;"><span>Clause ii (Inventory Physical Count &amp; Working Capital):</span> <span class="pill-pass">CLEAN</span></div>
+                                        <div style="display:flex;justify-content:space-between;"><span>Clause ix (Default in Repayment of Loans):</span> <span class="pill-pass">CLEAN</span></div>
+                                        <div style="display:flex;justify-content:space-between;"><span>Clause xix (Material Uncertainty on Liabilities):</span> <span class="pill-pass">CLEAN</span></div>
+                                        <div style="display:flex;justify-content:space-between;"><span>Clause xi (Fraud Involving &gt; ₹1 Lakh Reported):</span> <span class="pill-fail">QUALIFIED (₹46,000 Overcharge Blocked)</span></div>
+                                    </div>
+                                </div>
+
+                                <div class="radar-card-inner">
+                                    <div class="radar-card-title">
+                                        <i data-lucide="file-check" style="width:16px;height:16px;color:var(--primary);"></i>
+                                        <span>Direct &amp; Indirect Tax Shield (Sec 43B(h) &amp; GST 2B/3B)</span>
+                                    </div>
+                                    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;padding:12px;font-size:11.5px;display:flex;flex-direction:column;gap:6px;">
+                                        <div><strong>Section 43B(h) MSMED Tracker:</strong> 0 overdue micro/small vendor vouchers beyond 45 days. Complete tax deduction safety.</div>
+                                        <div><strong>GST Section 16(2)(aa) Matching:</strong> 100% of claimed ITC reconciled against supplier portal GSTR-2B. ₹11 Lakhs unverified ITC safely quarantined.</div>
+                                        <div><strong>MCA Rule 3 Immutable Audit Trail:</strong> ERP database audit logs verified tamper-proof with zero backdated JVs.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Carousel Footer Navigation Controls -->
+                    <div class="carousel-footer-bar">
+                        <button class="carousel-nav-btn" onclick="prevCarouselSlide()">
+                            <i data-lucide="chevron-left" style="width:14px;height:14px;"></i>
+                            <span>Previous Snapshot</span>
+                        </button>
+
+                        <div class="carousel-indicators-wrap">
+                            <span class="carousel-dot active" onclick="setCarouselSlide(0)"></span>
+                            <span class="carousel-dot" onclick="setCarouselSlide(1)"></span>
+                            <span class="carousel-dot" onclick="setCarouselSlide(2)"></span>
+                            <span class="carousel-dot" onclick="setCarouselSlide(3)"></span>
+                            <span id="carouselSlideCounter" class="carousel-slide-counter" style="margin-left:8px;">Slide 1 of 4</span>
+                        </div>
+
+                        <button class="carousel-nav-btn" onclick="nextCarouselSlide()">
+                            <span>Next Snapshot</span>
+                            <i data-lucide="chevron-right" style="width:14px;height:14px;"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+        <section id="industries" class="snt-section snt-dark-section">
+    <div class="section-container">
+        <div class="snt-section-chip">INDUSTRY AI MODELS</div>
+        <h2 class="snt-section-title">Purpose-Built Intelligence for Six High-Growth Sectors</h2>
+        <p class="snt-section-desc">Sentinel adapts its continuous AI detection models to each sector's commercial realities — from manufacturing yield variances to healthcare batch tracking.</p>
+        <div class="industry-solutions-grid">
+                    <!-- Industry 1 -->
+                    <div class="industry-card">
+                        <div class="ind-header">
+                            <div class="ind-icon"><i data-lucide="factory"></i></div>
+                            <div class="ind-title">Manufacturing &amp; Assembly</div>
+                        </div>
+                        <p class="ind-desc">
+                            Continuous AI triangulation across raw material weighbridges, standard BOM yield variances, subcontractor job-work (ITC-04 aging), and scrap tare weight reconciliation.
+                        </p>
+                        <div class="ind-chips-wrap">
+                            <span class="ind-chip">BOM Yield Tracking</span>
+                            <span class="ind-chip">Job-Work Form ITC-04</span>
+                            <span class="ind-chip">Weighbridge Load Cells</span>
+                        </div>
+                    </div>
+
+                    <!-- Industry 2 -->
+                    <div class="industry-card">
+                        <div class="ind-header">
+                            <div class="ind-icon"><i data-lucide="shopping-bag"></i></div>
+                            <div class="ind-title">Consumer Brands &amp; Retail</div>
+                        </div>
+                        <p class="ind-desc">
+                            Intercepting unearned dealer discounts, trade promotional schemes, warehouse transit shrinkage, multi-branch billing errors, and customer returns reconciliation.
+                        </p>
+                        <div class="ind-chips-wrap">
+                            <span class="ind-chip">Trade Scheme Leakage</span>
+                            <span class="ind-chip">Inventory Shrinkage</span>
+                            <span class="ind-chip">Multi-Store Billings</span>
+                        </div>
+                    </div>
+
+                    <!-- Industry 3 -->
+                    <div class="industry-card">
+                        <div class="ind-header">
+                            <div class="ind-icon"><i data-lucide="truck"></i></div>
+                            <div class="ind-title">Logistics, Fleet &amp; Mobility</div>
+                        </div>
+                        <p class="ind-desc">
+                            Analyzing transporter freight contracts, automated vehicle SLA penalty deductions, fuel card mileage reconciliations, and transit damage dispute clawbacks.
+                        </p>
+                        <div class="ind-chips-wrap">
+                            <span class="ind-chip">Freight Bill Audits</span>
+                            <span class="ind-chip">Transporter SLA Debit Notes</span>
+                            <span class="ind-chip">Fleet Maintenance Pass-Through</span>
+                        </div>
+                    </div>
+
+                    <!-- Industry 4 -->
+                    <div class="industry-card">
+                        <div class="ind-header">
+                            <div class="ind-icon"><i data-lucide="hard-hat"></i></div>
+                            <div class="ind-title">EPC, Projects &amp; Contracting</div>
+                        </div>
+                        <p class="ind-desc">
+                            Validating subcontractor milestone billing against physical measurement books, contractor retention money, site material wastage allowances, and joint venture cost distributions.
+                        </p>
+                        <div class="ind-chips-wrap">
+                            <span class="ind-chip">Measurement Book Matching</span>
+                            <span class="ind-chip">Retention Money Accounting</span>
+                            <span class="ind-chip">Site Material Allocations</span>
+                        </div>
+                    </div>
+
+                    <!-- Industry 5 -->
+                    <div class="industry-card">
+                        <div class="ind-header">
+                            <div class="ind-icon"><i data-lucide="activity"></i></div>
+                            <div class="ind-title">Healthcare &amp; Life Sciences</div>
+                        </div>
+                        <p class="ind-desc">
+                            Tracking batch expiry returns, distributor price protection (DPCO), medical equipment comprehensive AMC agreements, and stringent regulatory compliance trails.
+                        </p>
+                        <div class="ind-chips-wrap">
+                            <span class="ind-chip">Batch Expiry Tracking</span>
+                            <span class="ind-chip">Distributor Price Protection</span>
+                            <span class="ind-chip">Equipment Maintenance Logs</span>
+                        </div>
+                    </div>
+
+                    <!-- Industry 6 -->
+                    <div class="industry-card">
+                        <div class="ind-header">
+                            <div class="ind-icon"><i data-lucide="building"></i></div>
+                            <div class="ind-title">Corporate Groups &amp; Multi-Entity</div>
+                        </div>
+                        <p class="ind-desc">
+                            Governing inter-company loan interest, transfer pricing compliance, shared service expense allocations, and centralized treasury oversight across subsidiary networks.
+                        </p>
+                        <div class="ind-chips-wrap">
+                            <span class="ind-chip">MCA Sec 188 / Ind AS 24</span>
+                            <span class="ind-chip">Inter-Company Allocations</span>
+                            <span class="ind-chip">Treasury Risk Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+        <section id="how-it-works" class="snt-section">
+    <div class="section-container">
+        <div class="snt-section-chip">CONTINUOUS AI ARCHITECTURE</div>
+        <h2 class="snt-section-title">Deploy in Hours. Protect in Perpetuity.</h2>
+        <p class="snt-section-desc">Zero IT infrastructure overhaul. No ERP re-engineering. Sentinel connects directly to your existing systems and begins protecting margins within hours.</p>
+        <div class="workflow-steps-grid">
+                    <div class="step-card">
+                        <div class="step-num">01</div>
+                        <div class="step-icon"><i data-lucide="database"></i></div>
+                        <h3 class="step-title">Zero-Friction Ingestion</h3>
+                        <p class="step-desc">
+                            Universal canonical schemas connect directly to SAP, Oracle, Tally Prime, Zoho Books, Biometric Clocks, and Custom Databases.
+                        </p>
+                        <ul class="step-list">
+                            <li><i data-lucide="check"></i> Standardized RFC4180 canonical feeds</li>
+                            <li><i data-lucide="check"></i> 5-minute export pathways per ERP</li>
+                            <li><i data-lucide="check"></i> Automated pre-flight data hygiene validation</li>
+                        </ul>
+                    </div>
+
+                    <div class="step-card featured-step">
+                        <div class="step-badge">AI-POWERED ALGORITHMS</div>
+                        <div class="step-num">02</div>
+                        <div class="step-icon"><i data-lucide="cpu"></i></div>
+                        <h3 class="step-title">Continuous AI Triangulation</h3>
+                        <p class="step-desc">
+                            85 automated forensic routines cross-examine commercial POs, physical delivery logs, inventory movements, tax returns, and bank statements.
+                        </p>
+                        <ul class="step-list">
+                            <li><i data-lucide="check"></i> 100% full-population continuous scanning</li>
+                            <li><i data-lucide="check"></i> Benford's Law Chi-Square distribution analytics</li>
+                            <li><i data-lucide="check"></i> Cross-ledger anomaly isolation in milliseconds</li>
+                        </ul>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-num">03</div>
+                        <div class="step-icon"><i data-lucide="badge-check"></i></div>
+                        <h3 class="step-title">Cash Clawback &amp; Board Armor</h3>
+                        <p class="step-desc">
+                            Converts detected anomalies into immediate bottom-line cash recovery, automated supplier debit notes, and board-level risk scorecards.
+                        </p>
+                        <ul class="step-list">
+                            <li><i data-lucide="check"></i> 1-Click legally enforceable Debit Notes</li>
+                            <li><i data-lucide="check"></i> Immutable MCA Rule 3 audit trail logs</li>
+                            <li><i data-lucide="check"></i> Institutional-grade data room governance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+        <section id="stakeholders" class="snt-section snt-dark-section">
+    <div class="section-container">
+        <div class="snt-section-chip">EXECUTIVE ALIGNMENT</div>
+        <h2 class="snt-section-title">Designed for Every Seat at the Leadership Table</h2>
+        <p class="snt-section-desc">Actionable intelligence and tangible ROI tailored to each member of the executive committee and board.</p>
+        <div class="stakeholders-grid">
+                    <div class="stakeholder-card">
+                        <div class="st-role-badge">FOR THE CHIEF EXECUTIVE</div>
+                        <h3 class="st-title">CEO &amp; Managing Director</h3>
+                        <p class="st-desc">
+                            Maintain total operational grip across business units. Protect net profit margins, eliminate cross-departmental friction, and scale with the confidence that controls keep pace with growth.
+                        </p>
+                        <ul class="st-deliverables">
+                            <li><i data-lucide="check"></i> Real-time enterprise health radar</li>
+                            <li><i data-lucide="check"></i> EBITDA margin leakage defense</li>
+                            <li><i data-lucide="check"></i> Monday morning executive action plan</li>
+                        </ul>
+                    </div>
+
+                    <div class="stakeholder-card">
+                        <div class="st-role-badge">FOR THE BOARD &amp; FIDUCIARIES</div>
+                        <h3 class="st-title">Board &amp; Audit Committee</h3>
+                        <p class="st-desc">
+                            Institutional fiduciary armor. Replace once-a-year 25-sample checkups with continuous 100% assurance, zero surprise write-offs, and complete protection against director personal liability.
+                        </p>
+                        <ul class="st-deliverables">
+                            <li><i data-lucide="check"></i> Full population assurance documentation</li>
+                            <li><i data-lucide="check"></i> CARO 2020 21-clause governance matrix</li>
+                            <li><i data-lucide="check"></i> Tamper-proof MCA Rule 3 audit trails</li>
+                        </ul>
+                    </div>
+
+                    <div class="stakeholder-card">
+                        <div class="st-role-badge">FOR FINANCE LEADERSHIP</div>
+                        <h3 class="st-title">CFO &amp; Finance Controllers</h3>
+                        <p class="st-desc">
+                            Automate heavy cross-system reconciliations. Recapture trapped working capital through automated supplier debit notes and establish an ironclad shield against tax clawbacks.
+                        </p>
+                        <ul class="st-deliverables">
+                            <li><i data-lucide="check"></i> 1-Click supplier debit note generator</li>
+                            <li><i data-lucide="check"></i> Section 43B(h) &amp; GST 2B/3B tax iron dome</li>
+                            <li><i data-lucide="check"></i> 85 automated analytics routines</li>
+                        </ul>
+                    </div>
+
+                    <div class="stakeholder-card">
+                        <div class="st-role-badge">FOR INVESTORS &amp; LENDERS</div>
+                        <h3 class="st-title">PE, VC &amp; Banking Consortiums</h3>
+                        <p class="st-desc">
+                            De-risk investment capital and credit syndicates. Clean, continuous controls accelerate M&amp;A due diligence, verify true EBITDA quality, and unlock premium valuation multiples.
+                        </p>
+                        <ul class="st-deliverables">
+                            <li><i data-lucide="check"></i> Instant M&amp;A due diligence data rooms</li>
+                            <li><i data-lucide="check"></i> Verifiable quality of earnings (QoE)</li>
+                            <li><i data-lucide="check"></i> Reduced credit risk and lower cost of debt</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+        <section class="snt-section">
+            <div class="section-container">
+                <div class="case-study-card">
+                    <div class="cs-left">
+                        <div class="cs-badge">ILLUSTRATIVE DEPLOYMENT BENCHMARK // PLATFORM INTELLIGENCE</div>
+                        <h3 class="cs-client-name">[CONFIDENTIAL CLIENT // PRECISION MOBILITY OEM]</h3>
+                        <p class="cs-meta">CIN: U34100MH2019PTC****** • Mid-Market CleanTech &amp; Precision Assembly • Multi-Plant Deployment</p>
+                        <p class="cs-story">
+                            Operating at ₹146 Crores annual turnover across multi-plant assembly sites, this enterprise deployed Sentinel to gain continuous visibility over high-velocity transactions, split purchase orders, uncalibrated weighbridges, and component warranty claims.
+                        </p>
+                        <div class="cs-quote">
+                            <p>“As CEO, my priority was scaling from ₹100 Crores to ₹300 Crores without losing grip on cash. Within 48 hours of connecting our ledgers, Sentinel uncovered ₹42 Lakhs in uncredited supplier billing errors and unreturned warranty cores that had slipped past our previous systems. It gave our board total confidence to accelerate expansion.”</p>
+                            <div class="cs-author">— Managing Director &amp; Co-Founder [Entity Confidential]</div>
+                        </div>
+                    </div>
+                    <div class="cs-right">
+                        <div class="cs-metric-card">
+                            <div class="cs-m-label">Annual Turnover Analyzed</div>
+                            <div class="cs-m-val">₹146 Crores</div>
+                        </div>
+                        <div class="cs-metric-card">
+                            <div class="cs-m-label">Potential Value-at-Risk Intercepted</div>
+                            <div class="cs-m-val text-amber">₹2 Crores</div>
+                        </div>
+                        <div class="cs-metric-card highlight-green">
+                            <div class="cs-m-label">Direct Cash Recovered (Debit Notes)</div>
+                            <div class="cs-m-val text-emerald">₹42 Lakhs</div>
+                        </div>
+                        <div class="cs-metric-card">
+                            <div class="cs-m-label">EBITDA Net Profit Margin Protected</div>
+                            <div class="cs-m-val text-purple">+21%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="demo-gateway" class="snt-section snt-dark-section">
+            <div class="section-container">
+                <div class="auth-box-wrapper">
+                    <div class="auth-box">
+                        <div class="auth-header">
+                            <div class="auth-logo">
+                                <i data-lucide="shield-check"></i>
+                            </div>
+                            <div class="section-badge" style="margin-bottom:8px;">PLATFORM ACCESS</div>
+                            <h2 class="auth-title">Enter Sentinel Enterprise Console</h2>
+                            <p class="auth-desc">You've explored how Sentinel's AI intelligence platform protects enterprise value. Access the live interactive sandbox below.</p>
+                        </div>
+
+                        <!-- Pre-Configured Demo Credentials Banner -->
+                        <div class="demo-creds-banner">
+                            <div class="d-creds-info">
+                                <span class="d-creds-badge">PRE-CONFIGURED ACCESS</span>
+                                <span class="d-creds-text">User ID: <strong>demo</strong> &nbsp;|&nbsp; Password: <strong>demo</strong></span>
+                            </div>
+                            <button type="button" class="btn-autofill-creds" onclick="autoFillAndSubmitDemo()">
+                                <i data-lucide="sparkles" style="width:14px;height:14px;margin-right:6px;"></i>
+                                <span>1-Click Auto-Fill &amp; Launch</span>
+                            </button>
+                        </div>
+
+                        <!-- Interactive Login Form -->
+                        <form id="landingLoginForm" onsubmit="handleFormLogin(event)">
+                            <div id="loginErrorMessage" class="login-error-alert" style="display:none;"></div>
+                            
+                            <div class="form-group">
+                                <label for="loginUsername">User ID / Username</label>
+                                <div class="input-with-icon">
+                                    <i data-lucide="user"></i>
+                                    <input type="text" id="loginUsername" placeholder="Enter 'demo'" required="" autocomplete="username">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="loginPassword">Password</label>
+                                <div class="input-with-icon">
+                                    <i data-lucide="lock"></i>
+                                    <input type="password" id="loginPassword" placeholder="Enter 'demo'" required="" autocomplete="current-password">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn-login-submit" id="btnLoginSubmit">
+                                <span>Enter Enterprise Risk &amp; Defense Console</span>
+                                <i data-lucide="arrow-right" style="width:16px;height:16px;margin-left:8px;"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="snt-footer">
+          <div class="snt-footer-inner">
+            <div class="snt-footer-grid">
+              <div class="snt-footer-col snt-footer-brand-col">
+                <div class="snt-footer-brand-mark">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L3 7l0 6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12l0-6-9-5z"/>
+                    </svg>
+                </div>
+                <span class="snt-footer-brand-name">SENTINEL</span>
+                <p class="snt-footer-brand-desc">AI-Powered Financial Intelligence Platform. Continuous autonomous protection for high-growth enterprises.</p>
+              </div>
+              <div class="snt-footer-col">
+                <div class="snt-footer-col-title">Platform</div>
+                <a href="#platform" class="snt-footer-link">Sentinel Nexus</a>
+                <a href="#platform" class="snt-footer-link">Sentinel Cortex</a>
+                <a href="#platform" class="snt-footer-link">Sentinel Shield</a>
+                <a href="#how-it-works" class="snt-footer-link">Architecture</a>
+              </div>
+              <div class="snt-footer-col">
+                <div class="snt-footer-col-title">Intelligence</div>
+                <a href="#ceo-value" class="snt-footer-link">Executive Signals</a>
+                <a href="#forensic-engine" class="snt-footer-link">Live AI Engine</a>
+                <a href="#industries" class="snt-footer-link">Industry Models</a>
+                <a href="#stakeholders" class="snt-footer-link">Leadership Suite</a>
+              </div>
+              <div class="snt-footer-col">
+                <div class="snt-footer-col-title">Access</div>
+                <a href="#demo-gateway" class="snt-footer-link">Live Sandbox</a>
+                <a href="#demo-gateway" class="snt-footer-link">Request Demo</a>
+              </div>
+            </div>
+            <div class="snt-footer-bottom">
+              <p>© 2026 Sentinel Technologies. AI-Powered Financial Intelligence Platform.</p>
+              <div class="snt-footer-status">
+                <span class="snt-status-dot"></span>
+                <span>All Systems Operational — 90 Controls • 85 AI Models • 19 Schemas</span>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+
+
+<!-- 2. GRC SOFTWARE CONSOLE<!-- 2. GRC SOFTWARE CONSOLE (Shown after authentication)                   -->
+    <!-- ======================================================================= -->
+    <div id="console-layout" class="layout-wrapper" style="display:none;">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i data-lucide="shield-check"></i>
+                </div>
+                <div class="logo-text">
+                    <div class="company-name">NexGen Electric Mobility</div>
+                    <div class="platform-name">Sentinel Risk Console</div>
+                </div>
+            </div>
+            
+            <!-- Quick Cover Page Link at Top of Sidebar -->
+            <div style="padding: 6px 14px 10px 14px;">
+                <button class="btn-sidebar-cover-link" onclick="handlePlatformLogout()" title="Return to Marketing Cover Page & Overview">
+                    <i data-lucide="arrow-left-circle"></i>
+                    <span>Marketing Home Page</span>
+                </button>
+            </div>
+
+            <nav class="sidebar-nav">
+                <div class="nav-section">ENTITY & STRATEGY (SA 315)</div>
+                <a href="#client-profile" class="nav-link">
+                    <i data-lucide="building-2"></i>
+                    <span>Client Profile & Strategy</span>
+                </a>
+
+                <div class="nav-section">EXECUTIVE DESK</div>
+                <a href="#dashboard" class="nav-link active">
+                    <i data-lucide="layout-dashboard"></i>
+                    <span>Dashboard & KPIs</span>
+                </a>
+
+                <div class="nav-section">SCOPING & EVIDENCE</div>
+                <a href="#scoping" class="nav-link">
+                    <i data-lucide="clipboard-check"></i>
+                    <span>Client Scoping</span>
+                </a>
+                <a href="#data-request" class="nav-link">
+                    <i data-lucide="file-spreadsheets"></i>
+                    <span>Data Request List (27)</span>
+                </a>
+                <a href="#field-mapping" class="nav-link">
+                    <i data-lucide="split"></i>
+                    <span>Field Mapping & Ingestion</span>
+                </a>
+                <a href="#evidence" class="nav-link">
+                    <i data-lucide="folder-check"></i>
+                    <span>Evidence Repository</span>
+                </a>
+
+                <div class="nav-section">DISCOVERY & UNIVERSE</div>
+                <a href="#processes" class="nav-link">
+                    <i data-lucide="git-merge"></i>
+                    <span>Process Discovery</span>
+                </a>
+                <a href="#risks" class="nav-link">
+                    <i data-lucide="alert-triangle"></i>
+                    <span>Risk Universe</span>
+                </a>
+                <a href="#master-racm" class="nav-link">
+                    <i data-lucide="table-properties"></i>
+                    <span>Master Risk Indicators (90)</span>
+                </a>
+                <a href="#controls" class="nav-link">
+                    <i data-lucide="shield"></i>
+                    <span>Applicable Controls</span>
+                </a>
+
+                <div class="nav-section">EXECUTION & ANALYTICS</div>
+                <a href="#caat-library" class="nav-link">
+                    <i data-lucide="terminal"></i>
+                    <span>Automated Analytics (85)</span>
+                </a>
+                <a href="#testing" class="nav-link">
+                    <i data-lucide="check-square"></i>
+                    <span>Testing Engine</span>
+                </a>
+                <a href="#exceptions" class="nav-link">
+                    <i data-lucide="alert-octagon"></i>
+                    <span>Exception Register</span>
+                </a>
+
+                <div class="nav-section">STATUTORY & REGULATORY (INDIA)</div>
+                <a href="#compliance-hub" class="nav-link">
+                    <i data-lucide="scale"></i>
+                    <span>Compliance, CARO & Tax</span>
+                </a>
+
+                <div class="nav-section">REPORTING & MONITORING</div>
+                <a href="#rcm" class="nav-link">
+                    <i data-lucide="table"></i>
+                    <span>Dynamic Client Risk Indicators</span>
+                </a>
+                <a href="#recommendations" class="nav-link">
+                    <i data-lucide="thumbs-up"></i>
+                    <span>Recommendations</span>
+                </a>
+                <a href="#continuous-monitoring" class="nav-link">
+                    <i data-lucide="activity"></i>
+                    <span>Continuous Monitoring</span>
+                </a>
+                <a href="#evidence-gaps" class="nav-link">
+                    <i data-lucide="file-warning"></i>
+                    <span>Evidence Gaps</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div style="display:flex;gap:8px;align-items:center;">
+                    <button class="btn-reset" title="Clear cache and restart AI pipeline" style="flex:1;">
+                        <i data-lucide="refresh-cw"></i>
+                        Reset
+                    </button>
+                    <button id="themeToggleBtn" class="btn-theme-toggle" title="Toggle Dark/Light Monochromatic Theme" onclick="togglePlatformTheme()">
+                        <i data-lucide="moon"></i>
+                    </button>
+                    <button class="btn-sidebar-logout" title="Sign Out to Cover Page" onclick="handlePlatformLogout()">
+                        <i data-lucide="log-out"></i>
+                    </button>
+                </div>
+                <div class="user-profile">
+                    <div class="avatar">DA</div>
+                    <div class="user-info">
+                        <div class="user-name">Demo Executive</div>
+                        <div class="user-role">Authenticated Session</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="main-content" id="app-root">
+            <!-- Dynamic Module Content Rendered Here via app.js -->
+        </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+</body>
+</html>
+
+</body>
+</html>

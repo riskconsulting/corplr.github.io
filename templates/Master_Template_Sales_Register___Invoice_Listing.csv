@@ -1,0 +1,3 @@
+"Sales Invoice No (invoiceNumber)","Invoice Date (invoiceDate)","Customer Name (customerName)","Customer GSTIN (customerGstin)","Taxable Value (taxableValue)","GST Amount (gstAmount)","Total Invoice Amount (totalAmount)","E-way Bill No / IRN (eWayBillNo)"
+"[TEXT - MANDATORY]","[DATE - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[CURRENCY - MANDATORY]","[CURRENCY - MANDATORY]","[CURRENCY - MANDATORY]","[TEXT - OPTIONAL]"
+"SLS-2025-001","2025-06-15","Tata Motors Commercial Vehicles Ltd","27AAACT2727Q1ZW","4,50,000.00","81,000.00","5,31,000.00","241890123456"

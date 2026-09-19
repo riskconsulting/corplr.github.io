@@ -1,0 +1,3 @@
+"Item / SKU Code (itemCode)","Item Description (itemName)","Category (RM / WIP / FG / Scrap) (category)","Closing Stock Quantity (closingQuantity)","Valuation Unit Rate (unitRate)","Total Book Valuation (INR) (totalValue)","Last Inward / Outward Date (lastMovementDate)","Warehouse / Bin Location (storageLocation)"
+"[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[NUMBER - MANDATORY]","[NUMBER - MANDATORY]","[CURRENCY - MANDATORY]","[DATE - MANDATORY]","[TEXT - OPTIONAL]"
+"SKU-CAST-01","Brake Drum Castings Grade 25","Raw Material","150","600.00","90000.00","2024-11-10","Godown-A (Shop Floor)"

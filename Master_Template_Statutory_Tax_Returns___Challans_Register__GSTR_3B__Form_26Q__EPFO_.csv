@@ -1,0 +1,3 @@
+"Statutory Return Form (returnForm)","Tax Period (Month/Quarter) (taxPeriod)","Filing Acknowledgement / ARN (arnNo)","Date of Filing (filingDate)","Statutory Due Date (statutoryDueDate)","Self-Assessed Tax Liability (₹) (taxPayableInr)","Tax Settled via Bank Challan (₹) (taxPaidCashInr)","Challan CIN / BSR Code (challanCin)","Interest / Late Fee Paid (₹) (interestPaidInr)"
+"[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[DATE - MANDATORY]","[DATE - MANDATORY]","[CURRENCY - MANDATORY]","[CURRENCY - MANDATORY]","[TEXT - MANDATORY]","[CURRENCY - OPTIONAL]"
+"GSTR-3B","May-2025","AA270525008129F","2025-06-20","2025-06-20","1485000.00","1485000.00","HDFC2506200019241","0.00"

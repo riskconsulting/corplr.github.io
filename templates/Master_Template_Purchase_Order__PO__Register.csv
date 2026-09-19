@@ -1,0 +1,3 @@
+"Purchase Order No (poNumber)","PO Date (poDate)","Vendor Name (vendorName)","Vendor ID / Code (vendorId)","Item Description (itemDescription)","Quantity Ordered (quantity)","Unit Rate (unitPrice)","Total PO Value (totalAmount)","Approver Name (approverName)","Approver Level (approverLevel)"
+"[TEXT - MANDATORY]","[DATE - MANDATORY]","[TEXT - MANDATORY]","[TEXT - OPTIONAL]","[TEXT - MANDATORY]","[NUMBER - MANDATORY]","[NUMBER - MANDATORY]","[CURRENCY - MANDATORY]","[TEXT - MANDATORY]","[TEXT - OPTIONAL]"
+"PO-NRM-101","2025-05-15","Precision Tools & Dies Pvt Ltd","V-NRM-1","Forged Crankshaft Alloy 4140","50","1,500.00","75,000.00","Suresh Menon (Purchase Manager)","Level 2"

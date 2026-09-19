@@ -1,0 +1,3 @@
+"Supplier GSTIN (15-Digit) (supplierGstin)","Supplier Trade Name (supplierName)","Invoice / Bill Number (invoiceNumber)","Invoice Date (invoiceDate)","Taxable Value (Basic INR) (taxableValue)","Total GST Amount (IGST+CGST+SGST) (totalTax)","Reflected in GSTR-2B (Y/N) (gstr2bRefStatus)","Return Tax Period (filingPeriod)"
+"[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[DATE - MANDATORY]","[CURRENCY - MANDATORY]","[CURRENCY - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]"
+"27AADCD1234E1Z1","Precision Tools & Dies Pvt Ltd","INV-2025-041","2025-06-10","60000.00","10800.00","Y","Jun-2025"

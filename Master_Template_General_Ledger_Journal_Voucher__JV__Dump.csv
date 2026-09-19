@@ -1,0 +1,3 @@
+"Voucher / JV Number (voucherNumber)","Voucher Posting Date (voucherDate)","Debit Account Head (debitAccount)","Credit Account Head (creditAccount)","Journal Amount (INR) (amount)","Narration / Explanation (narration)","Prepared By (User) (enteredBy)","Approved By (Supervising) (approvedBy)","Entry Timestamp (entryTime)"
+"[TEXT - MANDATORY]","[DATE - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[CURRENCY - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - OPTIONAL]","[TEXT - OPTIONAL]"
+"JV-2025-081","2025-06-30","Repairs & Maintenance","Precision Tools (Vendor)","500000.00","Being year-end machine overhaul cost provision","admin_user","Suresh Menon (FC)","23:45:10"

@@ -1,0 +1,3 @@
+"Asset Tag / Barcode No. (assetTag)","Asset Description / Make (assetDescription)","Asset Category (assetCategory)","Date Put to Use (capitalizationDate)","Gross Purchase Cost (INR) (grossBlock)","Accumulated Depreciation (accumulatedDepreciation)","Net Written Down Value (WDV) (netBlock)","Physical Plant / Shop Floor Location (location)"
+"[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[DATE - MANDATORY]","[CURRENCY - MANDATORY]","[CURRENCY - MANDATORY]","[CURRENCY - MANDATORY]","[TEXT - MANDATORY]"
+"TAG-CNC-042","CNC 5-Axis Milling Center Haas VF-2","Plant & Machinery","2023-04-15","3500000.00","700000.00","2800000.00","Bhayala Plant - Bay 3"

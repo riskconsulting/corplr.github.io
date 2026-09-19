@@ -1,0 +1,3 @@
+"Ref / Chq / UTR No. (transactionId)","Transaction Date (transactionDate)","Bank Account Number (accountNumber)","Transaction Narration (narration)","Payee / Counterparty Name (beneficiaryName)","Type (Payment / Receipt) (transactionType)","Transaction Amount (INR) (amount)","Authorizer / Approver (approverUser)"
+"[TEXT - MANDATORY]","[DATE - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[CURRENCY - MANDATORY]","[TEXT - OPTIONAL]"
+"UTR-HDFC-99102","2025-06-15","50200012345678","RTGS to Precision Tools against Inv 041","Precision Tools & Dies Pvt Ltd","Payment","70800.00","Ramesh Sharma (Director)"

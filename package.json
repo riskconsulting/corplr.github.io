@@ -1,0 +1,22 @@
+{
+  "name": "sentinel-financial-defense-os",
+  "version": "2.4.0",
+  "description": "SENTINEL // Autonomous Enterprise AI & Risk Analytics Operating System",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "node tests/test_platform.js && node tests/test_complete_suite.js && node tests/run_simulation.js"
+  },
+  "keywords": [
+    "risk-analytics",
+    "enterprise-ai",
+    "financial-defense",
+    "margin-protection",
+    "internal-controls",
+    "audit-automation",
+    "continuous-monitoring",
+    "saas"
+  ],
+  "author": "Sentinel Technologies",
+  "license": "MIT"
+}

@@ -1,0 +1,3 @@
+"Vendor ID (vendorId)","Vendor Legal Name (vendorName)","PAN (10-Digit) (pan)","GSTIN (15-Digit) (gstin)","Bank Account Number (bankAccount)","Bank IFSC Code (ifscCode)","City (city)","Active Status (status)"
+"[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - MANDATORY]","[TEXT - OPTIONAL]","[TEXT - MANDATORY]"
+"V-001","Precision Tools & Dies Pvt Ltd","AADCD1234E","27AADCD1234E1Z1","1234567890123","HDFC0001234","Pune","Active"
